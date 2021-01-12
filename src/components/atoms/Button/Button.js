@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 const Button = styled.button`
     padding: 0;
     margin: 0;
-    background-color: ${({theme}) => theme.primary || '#ffd82b'};
+    background-color: ${({theme}) => theme.note || '#ffd82b'};
     border: none;
     border-radius: 50px;
     height: 47px;

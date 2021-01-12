@@ -10,6 +10,20 @@ export default {
 export const CardComponent = () => (
     <>
         <GlobalStyle />
-        <Card />
+        <Card/>
+    </>
+)
+
+export const CardComponent1 = () => (
+    <>
+        <GlobalStyle />
+        <Card cardType='twitter'/>
+    </>
+)
+
+export const CardComponent2 = () => (
+    <>
+        <GlobalStyle />
+        <Card cardType='article'/>
     </>
 )
